@@ -1,0 +1,63 @@
+@use "./variables" as*;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: $oscuro;
+    z-index: 1000;
+    @media (max-width:480px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+        
+
+    .logo {
+        width: 90%;
+        margin: 10px;
+    }
+
+    nav {
+        width: 45%;
+        @media(max-width:480px) {
+        width: 100%;
+    }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+            margin-right: 5px;  
+            li {
+                a {
+                    color: $blanco;
+                    text-decoration: none;
+                }
+            }
+            
+        }
+
+    }
+
+
+    
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    padding: 10px 0;
+    background-color:$topo ;
+    color: $blanco;
+    justify-content: center;
+    align-items: center;   
+}

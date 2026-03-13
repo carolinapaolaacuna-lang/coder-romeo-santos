@@ -1,0 +1,18 @@
+@use "../generales/variables" as*;
+
+.presentacion {
+    background-color: $gris;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 50%;
+        text-align: center;
+        h1 {
+            text-align: center;
+            color: $azul;
+        }
+    }
+
+
+} 

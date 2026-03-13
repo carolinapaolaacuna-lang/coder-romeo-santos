@@ -1,0 +1,112 @@
+@use "../generales/variables" as*;
+
+.contenedor-grid {
+    display: grid;
+
+    grid-template-areas:
+        "titulo titulo titulo"
+        "sub1 sub2 sub3"
+        "imgformula1 imgformula2 imggolden"
+        "ul1 ul2 ul3"
+        "sub4 sub5 sub6"
+        "imgutopia imgformula3 imgbetter"
+        "ul4 ul5 ul6";
+
+
+    grid-template-columns: 30% 30% 30%;
+
+    grid-template-rows: 100px auto auto auto auto auto auto;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    gap: 10px;
+}
+
+.titulo-grid {
+    grid-area: titulo;
+    color: $bordo;
+    font-family: $font;
+
+}
+
+.sub-titulo-grid-uno {
+    grid-area: sub1;
+
+}
+
+.sub-titulo-grid-dos {
+    grid-area: sub2;
+}
+
+.sub-titulo-grid-tres {
+    grid-area: sub3;
+}
+
+.sub-titulo-grid-cuatro {
+    grid-area: sub4;
+}
+
+.sub-titulo-grid-cinco {
+    grid-area: sub5;
+}
+
+.sub-titulo-grid-seis {
+    grid-area: sub6;
+}
+
+.img-formula-1 {
+    width: 200px;
+    grid-area: imgformula1
+}
+
+.img-formula-2 {
+    width: 200px;
+    grid-area: imgformula2;
+}
+
+.img-golden {
+    width: 200px;
+    grid-area: imggolden;
+}
+
+.img-utopia {
+    width: 200px;
+    grid-area: imgutopia;
+}
+
+.img-formula-3 {
+    width: 200px;
+    grid-area: imgformula3;
+}
+
+.img-better {
+    width: 200px;
+    grid-area: imgbetter;
+}
+
+.ol-grid-1 {
+    grid-area: ul1;
+}
+
+.ol-grid-2 {
+    grid-area: ul2;
+}
+
+.ol-grid-3 {
+    grid-area: ul3;
+}
+
+.ol-grid-4 {
+    grid-area: ul4;
+}
+
+.ol-grid-5 {
+    grid-area: ul5;
+}
+
+.ol-grid-6 {
+    grid-area: ul6;
+}
+

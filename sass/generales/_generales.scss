@@ -1,0 +1,53 @@
+@use "./variables" as*;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    background-color: $blanco;
+    h2 {
+    color: $bordo;
+    text-align: center
+
+}
+}
+
+.logo-redes {
+    width: 60px;
+}
+
+.imgtour {
+    width: 100%;
+}
+
+.imgdiscos {
+    width: 150px;
+}
+
+
+.h1-conciertos{
+    text-align: center;
+}
+
+.img-presentacion {
+    width: 45%;
+    margin: auto;
+  
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+}
+
+//Animaciones Discos//
+
+.img-formula-1:hover, .img-formula-2:hover, .img-golden:hover, 
+.img-utopia:hover, .img-formula-3:hover, .img-better:hover {
+    transform: scale(1.5); 
+    
+}
