@@ -2,6 +2,11 @@
 
 .contenedor-grid {
     display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100px auto auto auto auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
 
     grid-template-areas:
         "titulo titulo titulo"
@@ -10,18 +15,8 @@
         "ul1 ul2 ul3"
         "sub4 sub5 sub6"
         "imgutopia imgformula3 imgbetter"
-        "ul4 ul5 ul6";
-
-
-    grid-template-columns: 30% 30% 30%;
-
-    grid-template-rows: 100px auto auto auto auto auto auto;
-
-    justify-content: center;
-
-    justify-items: center;
-
-    gap: 10px;
+        "ul4 ul5 ul6"
+    
 }
 
 .titulo-grid {

@@ -9,11 +9,15 @@
 body {
     font-family: $font;
     background-color: $blanco;
-    h2 {
-    color: $bordo;
-    text-align: center
 
-}
+    h2 {
+        color: $bordo;
+        text-align: center
+    }
+    h3 {
+        color: $bordo;
+        text-align: center
+    }
 }
 
 .logo-redes {
@@ -21,7 +25,7 @@ body {
     height: 65px;
 }
 
-.imgtour {
+.img-tour {
     width: 100%;
 }
 
@@ -29,15 +33,23 @@ body {
     width: 150px;
 }
 
+.logo-spoty {
+    width: 100px;
 
-.h1-conciertos{
+}
+
+.logo-y-tube {
+    width: 200px;
+}
+
+.h1-conciertos {
     text-align: center;
 }
 
 .img-presentacion {
     width: 45%;
     margin: auto;
-  
+
 }
 
 .contenedor {
@@ -45,11 +57,18 @@ body {
     height: 100%;
 }
 
+
+
 //Animaciones Discos//
 
-.img-formula-1:hover, .img-formula-2:hover, .img-golden:hover, 
-.img-utopia:hover, .img-formula-3:hover, .img-better:hover {
-    transform: scale(1.5); 
-    
-}
+.img-formula-1:hover,
+.img-formula-2:hover,
+.img-golden:hover,
+.img-utopia:hover,
+.img-formula-3:hover,
+.img-better:hover {
+    transform: scale(1.05);
+    transition: 2s;
+    cursor: pointer;
 
+}

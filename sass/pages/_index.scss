@@ -1,18 +1,95 @@
 @use "../generales/variables" as*;
 
 .presentacion {
-    background-color: $gris;
+    background-color: $blanco;
     display: flex;
     justify-content: center;
     align-items: center;
+
     div {
         width: 50%;
         text-align: center;
+
         h1 {
             text-align: center;
-            color: $azul;
+            color: $oscuro;
         }
     }
 
 
-} 
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 15px;
+    width: 100%;
+
+    .boton-index1 {
+        display: flex;
+        background-color: $oscuro;
+        color: $blanco;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+
+        transition: 0.4s;
+        cursor: pointer;
+    }
+}
+
+.boton-index1:hover {
+    background-color: $verde;
+    color: $blanco;
+}
+//Extend
+.boton-index2{
+    @extend .boton-index1;
+    
+}
+.boton-index2:hover {
+    background-color: $rojoy;
+    color: $blanco;
+}
+
+.container{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.galeria-container {
+    text-align:center;
+    padding: 20px;
+    
+}
+
+.grid-fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 15px; 
+    margin: 20px auto;
+  
+}
+
+.grid-fotos img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.grid-fotos img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

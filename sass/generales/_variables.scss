@@ -1,12 +1,7 @@
-/*  
-#280905 Oscuro
-#740A03 Bordo
-#C3110C Rojo
-#E6501B Naranja
-#0C2C55 Azul
-*/
 
 $azul: #0C2C55;
+$rojoy: #FF0000;
+$verde: #1DB954;
 $oscuro: #000000;
 $bordo: #740A03;
 $rojo: #C3110C;
@@ -22,6 +17,9 @@ $font: "IBM Plex Sans", sans-serif;
 .titulo-grid {
     color: $bordo;
     font-family: $font;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px; 
 
 }
 .sub-titulo-grid-uno, .sub-titulo-grid-dos, .sub-titulo-grid-tres, .sub-titulo-grid-cuatro, .sub-titulo-grid-cinco, .sub-titulo-grid-seis {

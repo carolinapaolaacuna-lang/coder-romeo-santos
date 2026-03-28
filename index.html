@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romeo Santos</title>
-    <!-- Hoja css donde compila sass -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <!-- css bs -->
+    <meta name="description"content="Sitio oficial de fans de Romeo Santos. Explora la biografía, discografía completa y las últimas fechas del tour del Rey de la Bachata.">
+    <meta name="keywords" content="ROMEO SANTOS, FANS, DISCOGRAFÍA, BACHATA, ROMEO Y PRINCE,TOUR ROMEO">
+    <title>Romeo Santos - El Rey de la Bachata</title>
     <!-- css bs -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <!-- Hoja css donde compila sass -->
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 
@@ -21,7 +21,6 @@
         <!-- Logo -->
         <a href="#"><img class="logo" src="./img/logo-romeo-santos.png" alt="Logo Romeo Santos"></a>
 
-
         <!-- Menú de navegación. Contenidos dentro de nav -->
 
         <nav>
@@ -30,7 +29,7 @@
 
                 <li><a href="#">HOME</a></li>
                 <li><a href="./page/tour.html">TOUR</a></li>
-                <li><a href="./page/discografia.html">DICOGRAFIA</a></li>
+                <li><a href="./page/discografia.html">DISCOGRAFIA</a></li>
             </ul>
 
 
@@ -41,6 +40,48 @@
     </header>
 
     <main>
+        <div class="contenedor-botones">
+            <a href="https://open.spotify.com/intl-es/artist/5lwmRuXgjX8xIwlnauTZIP?si=Ye6qSzoTQK-4bLrWzz88OQ"
+                class="boton-index1">SPOTIFY</a>
+            <a href="https://www.youtube.com/@romeo" class="boton-index2">YOU TUBE</a>
+
+        </div>
+
+
+        <section class="carrusel-seccion my-5">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/banner-lanzamiento.jpg" class="d-block w-100" alt="imagen lanzamiento">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/prince-royce-romeo-santos.jpg" class="d-block w-100"
+                                    alt="imagen romeo santos y prince royce">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/album-romeo.jpg" class="d-block w-100"
+                                    alt="imagen fecha lanzamiento nuevo disco">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+        </section>
+
+
+
         <section class="presentacion">
             <div>
                 <h1>ROMEO SANTOS</h1>
@@ -62,75 +103,53 @@
                     "Romeo".</p>
                 </p>
 
-
-                <!-- <img class="img-presentacion" src="img/romeo-presentacion.jpg" alt=""> -->
+                <p class="parrafo-home">El "Rey de la Bachata", Romeo Santos, lanza su esperado nuevo álbum "Better
+                    Late Than Never" el 28 de noviembre de 2025, una colaboración histórica junto a Prince Royce.
+                    Este disco de 13 temas, que promete ser una pieza de colección tras años de espera, mezcla
+                    bachata, R&B y ritmos tropicales.</p>
 
 
             </div>
         </section>
 
-        <section class="carrusel-seccion my-5">
-            <div class="container">
-                <div class="row justify-content-center">
 
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./img/banner-lanzamiento.jpg" class="d-block w-100" alt="imagen lanzamiento">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/prince-royce-romeo-santos.jpg" class="d-block w-100"
-                                    alt="imagen romeo santos y prince royce">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/album-romeo.jpg" class="d-block w-100" alt="romeo en concierto">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-
-        </section>
-
-        <h2>ÚLTIMO LANZAMIENTO</h2>
+        <h2>Reproducir el TOP 10</h2>
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-5"> <iframe data-testid="embed-iframe" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/2Kw4Hh3xAkcROBNPuKnh4t?utm_source=generator"
+                <div class="col-md-3 col-lg-8"> <iframe data-testid="embed-iframe" style="border-radius:12px"
+                        src="https://open.spotify.com/embed/artist/5lwmRuXgjX8xIwlnauTZIP?utm_source=generator&theme=0"
                         width="100%" height="352" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy">
+                        loading="lazy"></iframe>
                     </iframe>
 
-                    <p class="parrafo-home">El "Rey de la Bachata", Romeo Santos, lanza su esperado nuevo álbum "Better
-                        Late Than Never" el 28 de noviembre de 2025, una colaboración histórica junto a Prince Royce.
-                        Este disco de 13 temas, que promete ser una pieza de colección tras años de espera, mezcla
-                        bachata, R&B y ritmos tropicales.</p>
+                    <section class="galeria-container">
+                        <h3>Galería del Rey</h3>
 
+                        <div class="grid-fotos">
+                            <img src="../img/romeo-2.jpeg" alt="Foto de romeo posando con camisa y sombrero">
+                            <img src="../img/romeo-3.jpg" alt="Foto de Romeo con traje brilloso azul">
+                            <img src="../img/romeo-4.jpg" alt="Foto de Romeo con blazer celeste">
 
+                        </div>
+                    </section>
 
     </main>
 
     <footer>
+        <p class="parrafo-footer">Copyright Carolina Paola Acuña</p>
 
-        <p>CONECTATE CON EL REY</p>
-
-        <div>
-            <a href="https://www.facebook.com/RomeoSantosOfficial"><img class="logo-redes"
-                    src="./img/logo-facebook-bis.png" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/romeosantos"><img class="logo-redes" src="./img/logo-instagram_bis.png"
-                    alt="logo instragram"></a>
-            <a href="https://www.tiktok.com/@romeosantos"><img class="logo-redes" src="./img/logo-tik-tok.png"
-                    alt="logo tik tok"></a>
+        <div class="footer-redes">
+            <p>CONECTATE CON EL REY</p>
+            <div class="iconos">
+                <a href="https://www.facebook.com/RomeoSantosOfficial"><img class="logo-redes"
+                        src="../img/logo-facebook-bis.png" alt="logo facebook"></a>
+                <a href="https://www.instagram.com/romeosantos"><img class="logo-redes"
+                        src="../img/logo-instagram_bis.png" alt="logo instragram"></a>
+                <a href="https://www.tiktok.com/@romeosantos"><img class="logo-redes" src="../img/logo-tik-tok.png"
+                        alt="logo tik tok"></a>
+            </div>
         </div>
     </footer>
     <!-- js bs -->
